@@ -10,9 +10,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Lista Empresas</title>
 </head>
 <body>
+	<c:import url="logoutParcial.jsp" />
+	Usuario Logado: ${usuarioLogado.login}
+	<br><br><br>
+	
 	<c:if test="${not empty novaEmpresa}">
 		Empresa ${novaEmpresa.nome}, aberta em <fmt:formatDate value="${novaEmpresa.dataAbertura}" pattern="dd/MM/yyyy"/>: cadastrada com sucesso! <br/><br/>
 	</c:if>
