@@ -8,7 +8,6 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-//@WebFilter(urlPatterns = "/entrada")
 public class MonitoramentoFilter implements Filter{
 
 	@Override
