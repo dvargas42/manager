@@ -7,6 +7,8 @@
 
 <html>
 <body>
+	<c:import url="logoutParcial.jsp" />
+	
 	<form action="${linkEntrada}?acao=AlteraEmpresa" method="post">
 
 		<input type="hidden" name="id" value="${empresa.id}"/>
